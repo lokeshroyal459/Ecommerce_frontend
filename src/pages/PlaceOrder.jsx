@@ -5,7 +5,7 @@ import Title from '../components/Title'
 import CartTotal from '../components/cartTotal'
 import { assets } from '../assets/assets'
 import { ShopContext } from '../context/ShopContext'
-import { currency } from '../../../admin/src/App'
+
 
 const PlaceOrder = () => {
 
