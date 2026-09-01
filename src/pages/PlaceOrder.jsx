@@ -9,6 +9,8 @@ import { ShopContext } from '../context/ShopContext'
 
 const PlaceOrder = () => {
 
+  const currency = '$';
+
   const [method, setMethod] = useState('cod');
   const { navigate, backendUrl, token, cartItems, setCartItems, getCartAmount, delivery_fee, products } = useContext(ShopContext)
 
